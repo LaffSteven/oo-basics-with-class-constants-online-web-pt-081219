@@ -18,7 +18,7 @@ class Shoe
     if !BRANDS.include?(brand)
       BRANDS << brand
     end
-    BRANDS = BRANDS.uniq
+    BRANDS.uniq
   end
 
 end
